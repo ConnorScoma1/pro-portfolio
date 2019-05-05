@@ -40,16 +40,17 @@ $('#btn-3').click(function () {
 $('#btn-4').click(function () { 
     //Setting Animation for Resume
     $('html, body').animate({
-        scrollTop: ($('#contact').offset().top)
+        scrollTop: ($('#about-arrow').offset().top)
     },500);
 })
 
-// You are smart You can do anything //
-//Set time interval for every hour to change background image 
+$('#btn-4').click(function () { 
+    //Setting Animation for Resume
+    $('html, body').animate({
+        scrollTop: ($('#about-arrow').offset().top)
+    },500);
+})
 
-let backgroundChange = setInterval((function (){
-
-}), interval);
 
 
 
