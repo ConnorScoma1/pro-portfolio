@@ -51,6 +51,13 @@ $('#btn-4').click(function () {
     },500);
 })
 
+$('#btn-5').click(function () { 
+    //Setting Animation for Resume
+    $('html, body').animate({
+        scrollTop: ($('#resume-arrow').offset().top)
+    },500);
+})
+
 
 
 
